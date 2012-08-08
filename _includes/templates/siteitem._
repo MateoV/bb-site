@@ -1,0 +1,9 @@
+<li>
+  <a href="#" class='clearfix'>
+    <div class='project-intro'>
+      <p class="topic"><%= render('country') %> - <%= render('site') %></p>
+    </div>
+    <div class='project-details'>
+    </div>
+  </a>
+</li>

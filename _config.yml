@@ -1,0 +1,6 @@
+auto: true
+server: true
+baseurl: /bb-site
+exclude: [bin, tilemill, data/original-data]
+prose:
+  rooturl: "_posts"

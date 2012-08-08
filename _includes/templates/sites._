@@ -1,0 +1,11 @@
+<span id='by'>All</span>
+<div class='filters clearfix'>
+  <ul class='dropdown clearfix'>
+    <li>
+    <a href='#' data-toggle='dropdown' class='dropdown-toggle'>Country</a>
+      <ul id='country-items' data-attribute='country' class='dropdown-menu'>
+      </ul>
+    </li>
+  </ul>
+</div>
+<ul id='projects-list' class='listing'></ul>
