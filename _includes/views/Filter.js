@@ -5,7 +5,7 @@
             this.render();
         },
         render: function() {
-            $('#main').append(templates.filter());
+            $('#main').empty().append(templates.filter());
             
             $('#main').append((new views.Sites({
                 collection: this.collection

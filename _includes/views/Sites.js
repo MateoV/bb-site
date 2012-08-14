@@ -41,14 +41,6 @@
                 $('#projects-list', view.el).append(
                     templates.siteitem(site)
                 );
-                /*
-                $('#projects-list li:last .project-details', view.el)
-                    .append(view.model ?
-                        templates.projectstats(project.stats(view.model.get('name'))) :
-                        "<div class='country-count'>" + project.totalCountries()+ "</div>"
-                    );
-                    */
-                    
             });
             
         },

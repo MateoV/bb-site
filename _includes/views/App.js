@@ -1,11 +1,6 @@
 (function(models, views, routers, templates) {
 
     views.App = Backbone.View.extend({
-        defaults: {
-            map: null,
-            interaction: null,
-            legend: null
-        },
         initialize: function(options) {
             this.render();
         },
